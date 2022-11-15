@@ -1,0 +1,15 @@
+int main (){
+  int a = 100;
+  int b = 0;
+  while(true) {
+    if (a < b) {
+    a++; 
+    b += 2;
+    }
+    else {
+      a -= 3;
+    }
+  }
+  std::count << "a = ", a, "b = ", b;
+  return 0;
+}
